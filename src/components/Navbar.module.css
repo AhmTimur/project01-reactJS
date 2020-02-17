@@ -1,0 +1,19 @@
+.nav {
+  grid-area: n;
+  background-color: rgba(189, 177, 161, 0.6);
+  margin-right: 5px;
+  height: 45vh;
+  border-radius: 5px;
+}
+.nav_text {
+  position: relative;
+  top: 3%;
+  left: 20px;
+}
+.item {
+  color: black;
+  margin: 10px 0px;
+}
+.active {
+  color: gold;
+}

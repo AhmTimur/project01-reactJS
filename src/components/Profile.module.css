@@ -3,6 +3,9 @@
   background-color: cornflowerblue;
   height: 90vh;
 }
-.content img {
+.content_img {
   width: 100%;
+}
+.item {
+  color: greenyellow;
 }

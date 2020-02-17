@@ -1,10 +1,10 @@
 import React from 'react';
-import './Profile.css';
+import s from './Profile.module.css';
 
 const Profile = () => {
-  return <div className='content'>
+  return <div className={s.content}>
     <div>
-      <img className='content-img' src='https://www.ferienwohnung-zehentner.at/site/assets/files/1022/steinberge.1200x200.jpg' />
+      <img className={s.content_img} src='https://www.ferienwohnung-zehentner.at/site/assets/files/1022/steinberge.1200x200.jpg' />
     </div>
     <div>
       ava + description
@@ -15,10 +15,10 @@ const Profile = () => {
         New post
       </div>
       <div>
-        <div>
+        <div className={s.item}>
           Post 1
         </div>
-        <div>
+        <div className={s.item}>
           Post 2
         </div>
       </div>
