@@ -1,23 +1,33 @@
 .nav {
-  grid-area: n;
-  background-color: rgba(189, 177, 161, 0.6);
-  margin-right: 5px;
-  height: 45vh;
-  border-radius: 5px;
+    grid-area: n;
+    background-color: rgb(220, 220, 220);
+    margin-right: 5px;
+    margin-left: 20vw;
+    width: 10vw;
+    height: 45vh;
+    border-radius: 10px;
 }
-.nav a.activeLink {
-   color: gold;
- }
+
 .nav a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: rgb(75, 116, 165);
+    padding-left: 25px;
 }
+
+.nav a.activeLink {
+    color: white;
+    background-color: rgb(75, 116, 165);
+    padding: 2px;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
 .nav_text {
-  position: relative;
-  top: 3%;
-  left: 20px;
+    position: relative;
+    top: 3%;
+    left: 20px;
 }
+
 .item {
-  color: black;
-  margin: 10px 0px;
+    margin: 10px 0px;
 }

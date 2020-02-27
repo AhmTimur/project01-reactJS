@@ -1,4 +1,22 @@
-.content {
-  grid-area: c;
-  background-color: cornflowerblue;
+.dialogs {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  padding: 20px;
+}
+.dialogsItems:first-child{
+  border-top: 1px solid grey; /* Линия сверху текста */
+}
+.dialog {
+  border-bottom: 1px solid grey; /* Линия снизу текста */
+}
+
+
+.messages {
+  padding: 20px;
+}
+.message {
+
 }
