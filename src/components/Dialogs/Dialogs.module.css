@@ -6,6 +6,9 @@
 .dialogsItems {
   padding: 20px;
 }
+.dialogsItems .active {
+  color: rgb(75, 116, 165);
+}
 .dialogsItems:first-child{
   border-top: 1px solid grey; /* Линия сверху текста */
 }
