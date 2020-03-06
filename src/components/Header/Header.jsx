@@ -4,7 +4,7 @@ console.log(s);
 
 const Header = () => {
   return <header className={s.header}>
-    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/1200px-Logo_TV_2015.svg.png' />
+    <img src='https://lofrev.net/wp-content/photos/2017/03/bower_logo_1.png' />
   </header>
 }
 

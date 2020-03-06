@@ -4,11 +4,10 @@
   left:0;
   grid-area: h;
   background-color: rgb(75,116,165);
-  margin-bottom: 5px;
   width: 100vw;
 }
 .header img {
   padding-left: 22vw;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
