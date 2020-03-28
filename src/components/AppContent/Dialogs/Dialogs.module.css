@@ -1,0 +1,37 @@
+.search {
+  display: flex;
+}
+input{
+  overflow: auto;
+}
+.dialogs {
+  border: 1px grey solid;
+  margin-bottom: 1px;
+  margin-left: 5px;
+}
+.dialogs a {
+  padding-top: 12px;
+  color: black;
+  text-decoration: none;
+  vertical-align: top;
+}
+.dialogsItems {
+
+}
+.dialogsItems .active {
+  color: rgb(75, 116, 165);
+}
+
+.messages {
+  padding: 20px;
+}
+.message {
+
+}
+
+.dialogImage {
+  padding-top: 2px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
