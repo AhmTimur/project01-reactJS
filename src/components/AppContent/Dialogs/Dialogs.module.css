@@ -5,7 +5,6 @@ input{
   overflow: auto;
 }
 .dialogs {
-  border: 1px grey solid;
   margin-bottom: 1px;
   margin-left: 5px;
 }

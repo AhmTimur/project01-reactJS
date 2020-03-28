@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/PersonalDialog/PersonalDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Music/Music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Music/Music.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/News/News.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Settings/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Settings/Settings.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,17 +37,17 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="B:\React\project-1\project01\src\components\AppContent" />
-      <recent name="B:\React\project-1\project01\src\components\Profile" />
-      <recent name="B:\React\project-1\project01\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs\personalDialog" />
       <recent name="B:\React\project-1\project01\src\components\AppContent" />
       <recent name="B:\React\project-1\project01\src\components\Dialogs\DialogItem\Dialog" />
       <recent name="B:\React\project-1\project01\src\components\Dialogs\Message" />
       <recent name="B:\React\project-1\project01\src\components\Dialogs\DialogItem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\React\project-1\project01\src\components\AppContent" />
+      <recent name="B:\React\project-1\project01\src\components\Profile" />
+      <recent name="B:\React\project-1\project01\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
