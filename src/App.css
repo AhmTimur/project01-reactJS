@@ -1,4 +1,4 @@
-.app-wrapper {
+.app_wrapper {
     margin: 0 auto;
     display: grid;
     width: 100vw;
@@ -6,11 +6,11 @@
     background-color: rgb(220, 220, 220);
     grid-template-areas: "h h " "n c";
     grid-template-rows: 40px 1fr;
-    grid-template-columns: 2fr 10fr;
-    /* grid-gap: 10px; */
+    grid-template-columns: 1fr 7fr;
 }
 
-.app-wrapper-content {
+.app_wrapper_content {
+    display: flex;
     grid-area: c;
     background-color: white;
     width: 35vw;

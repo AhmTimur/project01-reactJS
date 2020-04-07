@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/MessageItem/MessageItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/PersonalDialog/PersonalDialog.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppContent/Dialogs/personalDialog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppContent" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs\personalDialog" />
       <recent name="B:\React\project-1\project01\src\components\AppContent" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs" />
+      <recent name="B:\React\project-1\project01\src" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs\personalDialog" />
       <recent name="B:\React\project-1\project01\src\components\Dialogs\DialogItem\Dialog" />
-      <recent name="B:\React\project-1\project01\src\components\Dialogs\Message" />
-      <recent name="B:\React\project-1\project01\src\components\Dialogs\DialogItem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\components\AppContent" />
@@ -97,6 +109,15 @@
       <workItem from="1584726436771" duration="571000" />
       <workItem from="1584973553755" duration="4504000" />
       <workItem from="1585033096814" duration="1629000" />
+      <workItem from="1585488628540" duration="2608000" />
+      <workItem from="1585836915377" duration="2813000" />
+      <workItem from="1585911390770" duration="1812000" />
+      <workItem from="1585917195656" duration="3123000" />
+      <workItem from="1586007127071" duration="7113000" />
+      <workItem from="1586070503906" duration="4620000" />
+      <workItem from="1586084845952" duration="10692000" />
+      <workItem from="1586159730227" duration="4437000" />
+      <workItem from="1586268463259" duration="608000" />
     </task>
     <servers />
   </component>

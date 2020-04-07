@@ -1,18 +1,22 @@
-.search {
-  display: flex;
-}
-input{
-  overflow: auto;
-}
 .dialogs {
   margin-bottom: 1px;
   margin-left: 5px;
+  width: 14vw;
 }
 .dialogs a {
   padding-top: 12px;
   color: black;
   text-decoration: none;
   vertical-align: top;
+}
+.search {
+  padding-top: 5px;
+}
+.search input {
+  padding-left: 5px;
+  width: 98%;
+  line-height: 20px;
+  border: none;
 }
 .dialogsItems {
 
@@ -22,15 +26,31 @@ input{
 }
 
 .messages {
-  padding: 20px;
+  position: absolute;
+  top: 54px;
+  left: 45vw;
+  width: 20vw;
+  border-left: 2px solid rgb(75, 116, 165);
 }
-.message {
-
+.messagesItems {
+  padding: 17px;
+  text-align: right;
 }
-
+.messagesItems:nth-child(2) {
+  text-align: left;
+}
 .dialogImage {
   padding-top: 2px;
   width: 45px;
   height: 45px;
   border-radius: 50%;
+}
+.entryField{
+  position: absolute;
+  left: 45.5vw;
+}
+.entryFieldButton {
+  position: absolute;
+  left: 45.5vw;
+  top: 28.5vh
 }

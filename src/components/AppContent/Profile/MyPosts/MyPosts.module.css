@@ -1,6 +1,9 @@
 .postsBlock {
     padding: 10px;
 }
+.postsBlock textarea {
+    color: grey;
+}
 .posts {
     margin: 10px;
 }
