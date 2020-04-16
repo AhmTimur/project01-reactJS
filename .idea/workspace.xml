@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/MessageItem/MessageItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/PersonalDialog/PersonalDialog.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppContent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,17 +50,17 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\React\project-1\project01\src\components\AppContent" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs" />
-      <recent name="B:\React\project-1\project01\src" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs\personalDialog" />
-      <recent name="B:\React\project-1\project01\src\components\Dialogs\DialogItem\Dialog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\components\AppContent" />
       <recent name="B:\React\project-1\project01\src\components\Profile" />
       <recent name="B:\React\project-1\project01\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\React\project-1\project01\src\redux" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs" />
+      <recent name="B:\React\project-1\project01\src" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs\personalDialog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,6 +119,14 @@
       <workItem from="1586084845952" duration="10692000" />
       <workItem from="1586159730227" duration="4437000" />
       <workItem from="1586268463259" duration="608000" />
+      <workItem from="1586411206097" duration="6313000" />
+      <workItem from="1586424934064" duration="4557000" />
+      <workItem from="1586503932697" duration="10437000" />
+      <workItem from="1586596339001" duration="3241000" />
+      <workItem from="1586673651967" duration="13296000" />
+      <workItem from="1586756624328" duration="1933000" />
+      <workItem from="1586771474829" duration="809000" />
+      <workItem from="1586873309622" duration="605000" />
     </task>
     <servers />
   </component>

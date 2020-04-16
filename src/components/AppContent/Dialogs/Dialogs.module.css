@@ -1,7 +1,7 @@
 .dialogs {
   margin-bottom: 1px;
   margin-left: 5px;
-  width: 14vw;
+  width: 35vw;
 }
 .dialogs a {
   padding-top: 12px;
@@ -26,9 +26,7 @@
 }
 
 .messages {
-  position: absolute;
-  top: 54px;
-  left: 45vw;
+  float: right;
   width: 20vw;
   border-left: 2px solid rgb(75, 116, 165);
 }
@@ -45,12 +43,13 @@
   height: 45px;
   border-radius: 50%;
 }
-.entryField{
+.dispatchMessage {
   position: absolute;
   left: 45.5vw;
+  top: 50px;
 }
-.entryFieldButton {
-  position: absolute;
-  left: 45.5vw;
-  top: 28.5vh
-}
+
+/*.entryFieldButton {*/
+/*  position: absolute;*/
+/*
+/*}*/

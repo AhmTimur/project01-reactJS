@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter} from "react-router-dom";
 import AppContent from "./components/AppContent/AppContent";
-import {addMessage} from "./redux/state";
 
 const App = (props) => {
     return (
@@ -12,7 +11,7 @@ const App = (props) => {
             <div className='app_wrapper'>
                 <Header/>
                 <Navbar/>
-                <AppContent state={props.state}  addMessage={props.addMessage} addPost={props.addPost} updateNewPostText={props.updateNewPostText} updateNewMessageText={props.updateNewMessageText}/>
+                <AppContent state={props.state} dispatch={props.dispatch}/>
             </div>
         </BrowserRouter>);
 }
