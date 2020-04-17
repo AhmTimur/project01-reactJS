@@ -7,7 +7,7 @@ import React from "react";
 
 let rerenderEntireTree = () => {
     ReactDOM.render(<BrowserRouter>
-        <App state={store.getState()} dispatch={store.dispatch.bind(store)}/>
+        <App store={store} state={store.getState()} dispatch={store.dispatch.bind(store)}/>
     </BrowserRouter>, document.getElementById('root'));
 }
 store.subscribe(() => {
