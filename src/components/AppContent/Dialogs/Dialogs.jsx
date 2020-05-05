@@ -4,7 +4,6 @@ import DialogItem from "./DialogItem/DialogsItem";
 import {NavLink} from "react-router-dom";
 import MessageItem from "./MessageItem/MessageItem";
 
-
 const Dialogs = (props) => {
     let dialogElement = props.dialogs.dialogs.map ( d => (<DialogItem name={d.name} id={d.id}/>));
     let messageElement = props.dialogs.messages.map ( m => (<MessageItem message={m.message}/>))
@@ -26,8 +25,6 @@ const Dialogs = (props) => {
                 <NavLink to={'dialog' + dialogElement.id}>{dialogElement}</NavLink>
                 <div className={s.dispatchMessage}>
                 <div className={s.messages}> {messageElement} </div>
-
-
                     <div className={s.entryField}>
                         <textarea placeholder='Write your message' onChange={onMessageChange} ref={newMessageElement} value={props.dialogs.newMessageText}></textarea>
                     </div>
