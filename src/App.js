@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter} from "react-router-dom";
 import AppContent from "./components/AppContent/AppContent";
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 const App = (props) => {
     return (
         <BrowserRouter>
             <div className='app_wrapper'>
-                <Header/>
+                <HeaderContainer/>
                 <Navbar/>
                 <AppContent store={props.store}/>
             </div>

@@ -18,6 +18,8 @@ let rerenderEntireTree = () => {
 
 rerenderEntireTree();
 
+window.store = store;
+
 store.subscribe(() => {
     rerenderEntireTree();
 });

@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Users/Users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppContent/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Users" />
       <recent name="B:\React\project-1\project01\src\redux" />
+      <recent name="B:\React\project-1\project01\src\components\Header" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Profile" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent\Users" />
       <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Profile\MyPosts" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\components\AppContent" />
@@ -185,7 +197,23 @@
       <workItem from="1592838274129" duration="1000" />
       <workItem from="1593080695254" duration="6709000" />
       <workItem from="1593103013339" duration="1614000" />
-      <workItem from="1593276757405" duration="970000" />
+      <workItem from="1593276757405" duration="1747000" />
+      <workItem from="1593321439112" duration="5584000" />
+      <workItem from="1593333100139" duration="2486000" />
+      <workItem from="1593344884811" duration="2039000" />
+      <workItem from="1593412032334" duration="2337000" />
+      <workItem from="1593785548477" duration="603000" />
+      <workItem from="1593862997392" duration="5184000" />
+      <workItem from="1593944543996" duration="4686000" />
+      <workItem from="1594017093301" duration="4313000" />
+      <workItem from="1594110431449" duration="4697000" />
+      <workItem from="1594215595618" duration="3231000" />
+      <workItem from="1594281738153" duration="5156000" />
+      <workItem from="1594364258498" duration="4911000" />
+      <workItem from="1594469302284" duration="234000" />
+      <workItem from="1594548187923" duration="9251000" />
+      <workItem from="1594561637965" duration="1380000" />
+      <workItem from="1594571006890" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="install redux">
       <created>1587048477978</created>
@@ -208,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588685747738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="users page&#10;rebuild mapDispatchToProps">
+      <created>1593279721406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593279721406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +266,7 @@
     <MESSAGE value="install redux" />
     <MESSAGE value="container component" />
     <MESSAGE value="users page" />
-    <option name="LAST_COMMIT_MESSAGE" value="users page" />
+    <MESSAGE value="users page&#10;rebuild mapDispatchToProps" />
+    <option name="LAST_COMMIT_MESSAGE" value="users page&#10;rebuild mapDispatchToProps" />
   </component>
 </project>
