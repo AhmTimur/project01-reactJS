@@ -15,7 +15,6 @@ export const usersAPI = {
                 return response.data;
             })
     },
-
     follow(userId) {
         return instance.post(`follow/${userId}`)
     },
@@ -30,5 +29,5 @@ export const usersAPI = {
 export const authAPI = {
     me() {
         return instance.get(`auth/me`)
-    },
+    }
 }

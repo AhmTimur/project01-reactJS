@@ -7,7 +7,6 @@ import MessageItem from "./MessageItem/MessageItem";
 const Dialogs = (props) => {
     let dialogElement = props.dialogs.dialogs.map ( d => (<DialogItem name={d.name} id={d.id}/>));
     let messageElement = props.dialogs.messages.map ( m => (<MessageItem message={m.message}/>))
-
     let newMessageElement = React.createRef();
 
     let onAddMessage = () => {
@@ -16,6 +15,9 @@ const Dialogs = (props) => {
     let onMessageChange = () => {
         props.updateNewMessageText(newMessageElement.current.value);
     }
+
+    alert(props.isAuth);
+
     return (
         <div className={s.dialogs}>
             <div className={s.search}>
