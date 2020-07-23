@@ -31,3 +31,24 @@ export const authAPI = {
         return instance.get(`auth/me`)
     }
 }
+
+export const profileAPI = {
+    getProfile(userId) {
+        return instance.get(`profile/${userId}`)
+    },
+    getStatus(userId) {
+        return instance.get(`profile/status/${userId}`)
+    },
+    updateProfileStatus(status) {
+        return instance.put(`profile/status`, {status: status})
+    }
+}
+
+const dialogsAPI = {
+    logIn(email, password) {
+        return instance.post(`auth/login`, {email, password})
+    },
+    logOut(resultCode, messages, data) {
+        return instance.delete(`auth/login`, {resultCode, messages, data})
+    }
+}
