@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="Integrate redux-form in dialogs and profile">
-      <change afterPath="$PROJECT_DIR$/src/assets/35.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/userPhoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/AddMessageForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Preloader/Preloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,17 +55,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\React\project-1\project01\src\components\Common" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent" />
+      <recent name="B:\React\project-1\project01\src\components\Profile" />
+      <recent name="B:\React\project-1\project01\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\React\project-1\project01\src" />
       <recent name="B:\React\project-1\project01\src\redux" />
       <recent name="B:\React\project-1\project01\src\components\Header" />
       <recent name="B:\React\project-1\project01\src\components\AppContent\Profile" />
       <recent name="B:\React\project-1\project01\src\components\AppContent\Users" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Dialogs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="B:\React\project-1\project01\src\components\AppContent" />
-      <recent name="B:\React\project-1\project01\src\components\Profile" />
-      <recent name="B:\React\project-1\project01\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +225,13 @@
       <workItem from="1595252035864" duration="2947000" />
       <workItem from="1595347955064" duration="1521000" />
       <workItem from="1595397335404" duration="2641000" />
-      <workItem from="1595501145386" duration="4638000" />
+      <workItem from="1595501145386" duration="5734000" />
+      <workItem from="1595582083129" duration="7709000" />
+      <workItem from="1595660938248" duration="4798000" />
+      <workItem from="1595693327806" duration="1392000" />
+      <workItem from="1595762841618" duration="607000" />
+      <workItem from="1595773148703" duration="3100000" />
+      <workItem from="1595838997306" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="install redux">
       <created>1587048477978</created>
@@ -262,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595520493776</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Integrate redux-form in dialogs and profile">
+      <created>1595520744252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595520744252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

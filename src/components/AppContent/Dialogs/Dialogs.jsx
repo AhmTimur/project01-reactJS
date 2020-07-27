@@ -3,7 +3,7 @@ import s from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogsItem";
 import {NavLink, Redirect} from "react-router-dom";
 import MessageItem from "./MessageItem/MessageItem";
-import {Field, reduxForm} from "redux-form";
+import {DialogAddMessageFormRedux} from "./AddMessageForm";
 
 const Dialogs = (props) => {
     let dialogElement = props.dialogs.dialogs.map ( d => (<DialogItem name={d.name} id={d.id}/>));
@@ -14,23 +14,6 @@ const Dialogs = (props) => {
     }
 
     if(!props.isAuth) return <Redirect to={'/login'}/>
-
-    const AddMessageForm = (props) => {
-        return <form onSubmit={props.handleSubmit}>
-            <div>
-                <Field placeholder='Write your message' component='textarea' name='messageText'/>
-            </div>
-            <div>
-                <button>Send message</button>
-            </div>
-        </form>
-    }
-
-    const onSubmit = (formData) => {
-        console.log(formData);
-    }
-
-    const DialogAddMessageFormRedux = reduxForm({form: 'dialogsAddMessageForm'})(AddMessageForm)
 
     return (
         <div className={s.dialogs}>

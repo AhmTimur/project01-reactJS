@@ -29,6 +29,12 @@ export const usersAPI = {
 export const authAPI = {
     me() {
         return instance.get(`auth/me`)
+    },
+    logIn(email, password, rememberMe) {
+        return instance.post(`auth/login`, {email, password, rememberMe})
+    },
+    logOut(resultCode, messages, data) {
+        return instance.delete(`auth/login`, {resultCode, messages, data})
     }
 }
 
@@ -41,14 +47,5 @@ export const profileAPI = {
     },
     updateProfileStatus(status) {
         return instance.put(`profile/status`, {status: status})
-    }
-}
-
-const dialogsAPI = {
-    logIn(email, password) {
-        return instance.post(`auth/login`, {email, password})
-    },
-    logOut(resultCode, messages, data) {
-        return instance.delete(`auth/login`, {resultCode, messages, data})
     }
 }
