@@ -1,11 +1,11 @@
 import React from 'react'
 import {Field, reduxForm} from "redux-form";
-import {maxlengthCreator, required} from "../../../utils/validators/validators";
-import {Input} from "../../Common/FormsControl/FormsControl";
+import {maxlengthCreator, required} from "../../utils/validators/validators";
+import {Input} from "../Common/FormsControl/FormsControl";
 import {connect} from "react-redux";
-import {LogIn} from "../../../redux/auth-reducer";
+import {LogIn} from "../../redux/auth-reducer";
 import {Redirect} from "react-router-dom";
-import styles from "./../../Common/FormsControl/FormsControl.module.css"
+import styles from "../Common/FormsControl/FormsControl.module.css"
 
 const maxLength50 = maxlengthCreator(50)
 
