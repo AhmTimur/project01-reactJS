@@ -5,7 +5,6 @@ import {
     usersRequest, follow, unfollow
 } from "../../redux/users-reducer";
 import Users from "./Users";
-import {withAuthRedirect} from "../../hoc/WithAuthRedirect";
 import {compose} from "redux";
 import Preloader from "../Common/Preloader/Preloader";
 import {

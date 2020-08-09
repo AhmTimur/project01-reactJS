@@ -1,6 +1,6 @@
 import {getAuthUserData} from "./auth-reducer";
 
-const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
+const INITIALIZED_SUCCESS = 'bird-network/initial/INITIALIZED_SUCCESS';
 
 let initialState = {
     initialized: false
@@ -20,11 +20,9 @@ const appReducer = (state = initialState, action) => {
 
 const initializedSuccess = () => ({type: INITIALIZED_SUCCESS})
 
-export const initializedApp = () => (dispatch) => {
-    let promise = dispatch(getAuthUserData());
-    promise.then(() => {
-        dispatch(initializedSuccess())
-    })
+export const initializedApp = () => async (dispatch) => {
+    await dispatch(getAuthUserData());
+    dispatch(initializedSuccess())
 }
 
 

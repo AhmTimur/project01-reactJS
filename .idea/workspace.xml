@@ -2,43 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/WithSuspense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/object-helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/AppContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/AddMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Dialogs/MessageItem/MessageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/MessageItem/MessageItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Music/Music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Music/Music.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Music/Music.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Settings/Settings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppContent/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -69,11 +58,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -81,10 +71,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\redux" />
+      <recent name="B:\React\project-1\project01\src\components\Profile\ProfileInfo" />
       <recent name="B:\React\project-1\project01\src" />
       <recent name="B:\React\project-1\project01\src\components\Header" />
       <recent name="B:\React\project-1\project01\src\components\AppContent\Profile" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent\Users" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\components" />
@@ -105,15 +95,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="eject" />
-      </scripts>
+  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be call">
+    <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't exist" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;input&gt; shouldn't exist" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.after creation &lt;span&gt; should contain correct status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;span&gt; should contain correct status" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.callback should be call" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be call" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.input should be displayed in editMode instead of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="input should be displayed in editMode instead of span" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -129,7 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.eject" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be call" />
+        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode instead of span" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;input&gt; shouldn't exist" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should contain correct status" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +297,26 @@
       <workItem from="1595838997306" duration="7905000" />
       <workItem from="1595925254177" duration="5162000" />
       <workItem from="1595953103072" duration="604000" />
-      <workItem from="1595998140784" duration="1224000" />
+      <workItem from="1595998140784" duration="7400000" />
+      <workItem from="1596026956860" duration="2885000" />
+      <workItem from="1596088803132" duration="330000" />
+      <workItem from="1596124384466" duration="606000" />
+      <workItem from="1596174622926" duration="1215000" />
+      <workItem from="1596219484485" duration="622000" />
+      <workItem from="1596367119864" duration="2966000" />
+      <workItem from="1596370549412" duration="1192000" />
+      <workItem from="1596381445921" duration="910000" />
+      <workItem from="1596448331481" duration="7323000" />
+      <workItem from="1596528102856" duration="7954000" />
+      <workItem from="1596567617517" duration="1990000" />
+      <workItem from="1596634386352" duration="1386000" />
+      <workItem from="1596702918371" duration="7687000" />
+      <workItem from="1596716560932" duration="796000" />
+      <workItem from="1596784352092" duration="7308000" />
+      <workItem from="1596796027459" duration="3899000" />
+      <workItem from="1596892240784" duration="4326000" />
+      <workItem from="1596907658257" duration="613000" />
+      <workItem from="1596963900583" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="install redux">
       <created>1587048477978</created>
@@ -323,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595853728468</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reselect library">
+      <created>1596000555459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596000555459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +416,22 @@
     <MESSAGE value="Integrate redux-form" />
     <MESSAGE value="Integrate redux-form in dialogs and profile" />
     <MESSAGE value="Fixed bug with userId in profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with userId in profile" />
+    <MESSAGE value="Reselect library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reselect library" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Users/UsersContainer.jsx</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

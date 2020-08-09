@@ -1,8 +1,9 @@
-import {usersAPI, profileAPI} from "../api/api";
+import {profileAPI} from "../api/api";
 
-const ADD_POST = 'ADD-POST';
-const SET_USER_PROFILE = 'SET-USER-PROFILE';
-const SET_STATUS = 'SET-STATUS';
+const ADD_POST = 'bird-network/profile/ADD-POST';
+const SET_USER_PROFILE = 'bird-network/profile/SET-USER-PROFILE';
+const SET_STATUS = 'bird-network/profile/SET-STATUS';
+const DELETE_POST = 'bird-network/profile/DELETE_POST';
 
 let initialState = {
     posts: [
@@ -36,6 +37,11 @@ const profileReducer = (state = initialState, action) => {
                 ...state,
                 status: action.status
             }
+        case DELETE_POST:
+            return {
+                ...state,
+                posts: state.posts.filter(p => p.id != action.postId)
+            }
         default:
             return state;
     }
@@ -44,25 +50,23 @@ const profileReducer = (state = initialState, action) => {
 export const addPostActionCreator = (newPostText) => ({ type: ADD_POST, newPostText})
 const setUserProfile = (profile) => ({ type: SET_USER_PROFILE, profile })
 const setStatus = (status) => ({ type: SET_STATUS, status })
+export const deletePost = (postId) => ({ type: DELETE_POST, postId })
 
-export const getUserProfile = (userId) =>  (dispatch) => {
-    profileAPI.getProfile(userId).then(response => {
+export const getUserProfile = (userId) => async (dispatch) => {
+    let response = await profileAPI.getProfile(userId);
         dispatch(setUserProfile(response.data));
-    });
 }
 
-export const getStatus = (userId) => (dispatch) => {
-    profileAPI.getStatus(userId).then(response => {
+export const getStatus = (userId) => async(dispatch) => {
+    let response = await profileAPI.getStatus(userId);
             dispatch(setStatus(response.data))
-    })
 }
 
-export const updateStatus = (status) => (dispatch) => {
-    profileAPI.updateProfileStatus(status).then(response => {
+export const updateStatus = (status) => async (dispatch) => {
+    let response = await profileAPI.updateProfileStatus(status);
         if(response.data.resultCode === 0) {
             dispatch(setStatus(status));
         }
-    })
 }
 
 
