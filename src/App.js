@@ -1,7 +1,7 @@
 import React, {Component, Suspense} from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter, Route} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
@@ -53,10 +53,10 @@ const mapStateToProps = (state) => ({
 const AppContainer = connect(mapStateToProps, {initializedApp})(App);
 
 const AppContainerWrap = () => {
-    return <BrowserRouter>
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
 }
 export default AppContainerWrap;

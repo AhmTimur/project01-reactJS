@@ -4,6 +4,7 @@ import DialogItem from "./DialogItem/DialogsItem";
 import {NavLink, Redirect} from "react-router-dom";
 import MessageItem from "./MessageItem/MessageItem";
 import {DialogAddMessageFormRedux} from "./AddMessageForm";
+import photo from "./../../assets/userPhoto.png"
 
 const Dialogs = (props) => {
     let dialogElement = props.dialogs.dialogs.map ( d => (<DialogItem name={d.name} id={d.id}/>));
@@ -21,7 +22,9 @@ const Dialogs = (props) => {
                 <input type="text" placeholder='search'/>
             </div>
             <div className={s.dialogsItems}>
-                <NavLink to={'dialog' + dialogElement.id}>{dialogElement}</NavLink>
+                <NavLink to={'dialog' + dialogElement.id}>
+                    {dialogElement}
+                </NavLink>
                 <div className={s.dispatchMessage}>
                 <div className={s.messages}> {messageElement} </div>
                     <DialogAddMessageFormRedux onSubmit={addNewMessage} />

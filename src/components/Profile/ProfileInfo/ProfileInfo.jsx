@@ -11,8 +11,9 @@ const ProfileInfo = ({profile, status, updateStatus}) => {
         <div>
             <div className={s.descriptionBlock}>
                 <div>
-                    <img className={s.avatar}  src={profile.photos.large !=null ? profile.photos.large : 'http://localhost:3000/static/media/userPhoto.3d1c93dd.png'}/>
+                    <img className={s.avatar}  src={profile.photos.large !=null ? profile.photos.large : "https://vectorified.com/images/no-profile-picture-icon-13.png"}/>
                 </div>
+                Name
                 <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
             </div>
         </div>

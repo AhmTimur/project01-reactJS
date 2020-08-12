@@ -16,7 +16,7 @@ export const Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged
     let rightPageNumberInPortion = portionNumber * portionSize;
 
     return <div className={styles.paginator}>
-        <button disabled={portionNumber == 1} onClick={()=> {setPortionNumber(portionNumber - 1)}}>Prev</button>
+        { portionNumber > 1 && <button onClick={()=> {setPortionNumber(portionNumber -1)}}>Prev</button>}
             {pages
                 .filter(p => p <= rightPageNumberInPortion && p >= leftPageNumberInPortion)
                 .map((p) => {
@@ -24,7 +24,8 @@ export const Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged
                                  key={p}
                                  onClick={(e) => {onPageChanged(p)}}>
                             {p}</span>
-                })}
+                })
+            }
 
         {portionCount > portionNumber && <button onClick={()=> {setPortionNumber(portionNumber + 1)}}>Next</button>}
     </div>
