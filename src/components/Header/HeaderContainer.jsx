@@ -1,5 +1,5 @@
 import React from 'react';
-import {getAuthUserData, LogOut} from '../../redux/auth-reducer';
+import {LogOut} from '../../redux/auth-reducer';
 import {connect} from 'react-redux';
 import Header from './Header';
 

@@ -11,3 +11,13 @@
   width: 200px;
   height: 200px;
 }
+.status {
+  display: table;
+  border-bottom: 1px grey solid;
+}
+.status div {
+  display: table-cell;
+}
+.contacts {
+  padding-left: 10px;
+}

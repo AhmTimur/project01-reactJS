@@ -14,8 +14,7 @@ const LoginForm = ({handleSubmit, error}) => {
         {createField('Email', 'email', '', Input, [required, maxLength50])}
         {createField('Password', 'password', 'password', Input, [required, maxLength50])}
         {createField('', 'rememberMe', 'checkbox', 'input', [], {}, 'Remember me')}
-        {error && <div className={styles.formCommonError}><span>{error}</span>
-        </div>}
+        {error && <div className={styles.formCommonError}><span>{error}</span></div>}
         <div>
             <button>Login</button>
         </div>

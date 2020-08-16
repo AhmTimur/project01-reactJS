@@ -1,10 +1,12 @@
 import {profileAPI} from "../api/api";
+import {stopSubmit} from "redux-form";
+const baseProfileReduxDucks = 'bird-network/profile/';
 
-const ADD_POST = 'bird-network/profile/ADD-POST';
-const SET_USER_PROFILE = 'bird-network/profile/SET-USER-PROFILE';
-const SET_STATUS = 'bird-network/profile/SET-STATUS';
-const DELETE_POST = 'bird-network/profile/DELETE_POST';
-const UPDATE_USER_PHOTO = 'bird-network/profile/UPDATE_USER_PHOTO';
+const ADD_POST = baseProfileReduxDucks + 'ADD-POST';
+const SET_USER_PROFILE = baseProfileReduxDucks + 'SET-USER-PROFILE';
+const SET_STATUS = baseProfileReduxDucks + 'SET-STATUS';
+const DELETE_POST = baseProfileReduxDucks + 'DELETE_POST';
+const UPDATE_USER_PHOTO = baseProfileReduxDucks + 'UPDATE_USER_PHOTO';
 
 let initialState = {
     posts: [
@@ -79,6 +81,18 @@ export const sendPhoto = (file) => async (dispatch) => {
     let response = await profileAPI.sendPhoto(file);
     if(response.data.resultCode === 0) {
         dispatch(sendPhotoSuccess(response.data.data.photos))
+    }
+}
+export const saveProfileData = (profileData) => async (dispatch) => {
+    const userId = profileData.userId;
+    console.log(userId)
+    let response = await profileAPI.saveProfileData(profileData);
+
+    if(response.data.resultCode === 0) {
+        dispatch(getUserProfile(userId));
+    }else{
+        dispatch(stopSubmit("edit-profile", {_error: response.data.messages[0]}))
+    return Promise.reject( response.data.messages[0])
     }
 }
 
