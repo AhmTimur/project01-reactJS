@@ -2,11 +2,15 @@ import {getAuthUserData} from "./auth-reducer";
 
 const INITIALIZED_SUCCESS = 'bird-network/initial/INITIALIZED_SUCCESS';
 
-let initialState = {
+type InitialStateType = {
+    initialized: boolean
+}
+
+let initialState: InitialStateType = {
     initialized: false
 }
 
-const appReducer = (state = initialState, action) => {
+const appReducer = (state = initialState, action: any): InitialStateType => {
     switch (action.type) {
         case INITIALIZED_SUCCESS:
             return {
@@ -18,9 +22,13 @@ const appReducer = (state = initialState, action) => {
     }
 }
 
-const initializedSuccess = () => ({type: INITIALIZED_SUCCESS})
+type InitializedSuccessType = {
+    type: typeof INITIALIZED_SUCCESS
+}
 
-export const initializedApp = () => async (dispatch) => {
+const initializedSuccess = (): InitializedSuccessType => ({type: INITIALIZED_SUCCESS})
+
+export const initializedApp = () => async (dispatch: any) => {
     await dispatch(getAuthUserData());
     dispatch(initializedSuccess())
 }
