@@ -2,29 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614961be-542e-44f3-beb5-60047ed59b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Typescript/my-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/profile-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/security-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/users-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/AddNewPostForm/AddNewPostForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/FormsControl/FormsControl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Paginator/Paginator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Preloader/Preloader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/MessageItem/MessageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/MessageItem/MessageItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Music/Music.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/WithAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/WithAuthRedirect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/WithSuspense.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/WithSuspense.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/object-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/object-helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,19 +95,26 @@
     <property name="ts.external.directory.path" value="A:\React\project-1\project01\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="A:\React\project-1\project01\src" />
-      <recent name="B:\React\project-1\project01\src\components" />
-      <recent name="B:\React\project-1\project01\src\components\Common" />
-      <recent name="B:\React\project-1\project01\src\components\AppContent" />
-      <recent name="B:\React\project-1\project01\src\components\Profile" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\React\project-1\project01\src\redux" />
       <recent name="B:\React\project-1\project01\src\components\Profile\ProfileInfo" />
       <recent name="B:\React\project-1\project01\src" />
       <recent name="B:\React\project-1\project01\src\components\Header" />
       <recent name="B:\React\project-1\project01\src\components\AppContent\Profile" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="A:\React\project-1\project01\src\api\security-api.ts" />
+      <recent name="A:\React\project-1\project01\src\api\profile-api.ts" />
+      <recent name="A:\React\project-1\project01\src\api\api.ts" />
+      <recent name="A:\React\project-1\project01\src\api\auth-api.ts" />
+      <recent name="A:\React\project-1\project01\src\api\users-api.ts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\React\project-1\project01\src" />
+      <recent name="B:\React\project-1\project01\src\components" />
+      <recent name="B:\React\project-1\project01\src\components\Common" />
+      <recent name="B:\React\project-1\project01\src\components\AppContent" />
+      <recent name="B:\React\project-1\project01\src\components\Profile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,6 +355,36 @@
       <workItem from="1598098860462" duration="97000" />
       <workItem from="1598113539861" duration="13502000" />
       <workItem from="1598266690955" duration="136000" />
+      <workItem from="1598277265868" duration="1740000" />
+      <workItem from="1598375459960" duration="3102000" />
+      <workItem from="1598463726088" duration="3939000" />
+      <workItem from="1598545840044" duration="9577000" />
+      <workItem from="1598639733857" duration="1483000" />
+      <workItem from="1598641234810" duration="3091000" />
+      <workItem from="1598700433418" duration="4560000" />
+      <workItem from="1598706872161" duration="2700000" />
+      <workItem from="1599049644867" duration="2375000" />
+      <workItem from="1599299510547" duration="6943000" />
+      <workItem from="1599411005633" duration="1404000" />
+      <workItem from="1599988580444" duration="3544000" />
+      <workItem from="1600024580608" duration="228000" />
+      <workItem from="1600024826636" duration="2888000" />
+      <workItem from="1600082534953" duration="2063000" />
+      <workItem from="1600102309362" duration="5125000" />
+      <workItem from="1600438065296" duration="853000" />
+      <workItem from="1601055452187" duration="2722000" />
+      <workItem from="1601212226547" duration="5970000" />
+      <workItem from="1601310984252" duration="2633000" />
+      <workItem from="1601408385957" duration="3605000" />
+      <workItem from="1601473696027" duration="2105000" />
+      <workItem from="1601543647521" duration="7125000" />
+      <workItem from="1601644169344" duration="4458000" />
+      <workItem from="1601729646569" duration="4714000" />
+      <workItem from="1601743636951" duration="1812000" />
+      <workItem from="1601818758334" duration="7435000" />
+      <workItem from="1601960572730" duration="5806000" />
+      <workItem from="1601966763859" duration="510000" />
+      <workItem from="1601978918573" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="install redux">
       <created>1587048477978</created>
@@ -403,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597566792466</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Migrate reducers to TS">
+      <created>1598277562711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598277562711</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,13 +508,14 @@
     <MESSAGE value="Reselect library" />
     <MESSAGE value="deploy the project" />
     <MESSAGE value="extended profile data" />
-    <option name="LAST_COMMIT_MESSAGE" value="extended profile data" />
+    <MESSAGE value="Migrate reducers to TS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate reducers to TS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx</url>
+          <url>file://$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.tsx</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

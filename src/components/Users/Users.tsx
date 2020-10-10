@@ -7,20 +7,20 @@ import {UserType} from "../../types/Types";
 type PropsType = {
     currentPage: number
     onPageChanged: (pageNumber: number) => void
-    totalUsersCount: number
+    totalItemsCount: number
     pageSize: number
     users: Array<UserType>
 
     followingInProgress: Array<number>
-    follow: () => void
-    unfollow: () => void
+    follow: (userId: number) => void
+    unfollow: (userId: number) => void
 }
 
 
-let Users: FC<PropsType> = ({currentPage, onPageChanged, totalUsersCount, pageSize, users, ...props}) => {
+let Users: FC<PropsType> = ({currentPage, onPageChanged, totalItemsCount, pageSize, users, ...props}) => {
     return <div>
         <div className={styles.page}>
-            <Paginator totalItemsCount={totalUsersCount} pageSize={pageSize} currentPage={currentPage} onPageChanged={onPageChanged}/>
+            <Paginator totalItemsCount={totalItemsCount} pageSize={pageSize} currentPage={currentPage} onPageChanged={onPageChanged}/>
         </div>
             <div>{
                 users.map(u => <User user={u} followingInProgress={props.followingInProgress} follow={props.follow} unfollow={props.unfollow} key={u.id}/>

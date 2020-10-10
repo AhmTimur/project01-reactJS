@@ -1,18 +1,18 @@
 import {getAuthUserData} from "./auth-reducer";
-
-const INITIALIZED_SUCCESS = 'bird-network/initial/INITIALIZED_SUCCESS';
-
-type InitialStateType = {
-    initialized: boolean
-}
+import {InferActionsType} from "./redux-store";
 
 let initialState: InitialStateType = {
     initialized: false
 }
 
-const appReducer = (state = initialState, action: any): InitialStateType => {
+type InitialStateType = {
+    initialized: boolean
+}
+type ActionsTypes = InferActionsType<typeof actions>
+
+const appReducer = (state = initialState, action: ActionsTypes): InitialStateType => {
     switch (action.type) {
-        case INITIALIZED_SUCCESS:
+        case "BN/APP/INITIALIZED_SUCCESS":
             return {
                 ...state,
                 initialized: true
@@ -22,15 +22,17 @@ const appReducer = (state = initialState, action: any): InitialStateType => {
     }
 }
 
-type InitializedSuccessType = {
-    type: typeof INITIALIZED_SUCCESS
+export const actions = {
+    initializedSuccess: () => ({type: 'BN/APP/INITIALIZED_SUCCESS'} as const)
 }
 
-const initializedSuccess = (): InitializedSuccessType => ({type: INITIALIZED_SUCCESS})
 
 export const initializedApp = () => async (dispatch: any) => {
-    await dispatch(getAuthUserData());
-    dispatch(initializedSuccess())
+    let promise = dispatch(getAuthUserData());
+
+    Promise.all([promise])
+        .then(() => {dispatch(actions.initializedSuccess());
+        });
 }
 
 

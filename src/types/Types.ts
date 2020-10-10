@@ -20,6 +20,7 @@ export type ProfileType = {
     fullName: string
     contacts: ContactsType
     photos: PhotosType
+    aboutMe: string
 }
 export type PhotosType = {
     small: string
@@ -32,5 +33,6 @@ export type UserType = {
     status: string
     photos: PhotosType
     followed: boolean
+    totalUsersCount: number
+    items?: any
 }
-
