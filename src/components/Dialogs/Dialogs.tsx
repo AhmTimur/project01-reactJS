@@ -18,7 +18,6 @@ type DispatchStatePropsType = {
 type PropsType = MapStatePropsType & DispatchStatePropsType
 
 const Dialogs: React.FC<InjectedFormProps<PropsType> & PropsType> = (props) => {
-    debugger
     let dialogElement = props.dialogs.dialogs.map ( d => (<DialogItem key={d.id} name={d.name} id={d.id}/>));
     let messageElement = props.dialogs.messages.map ( m => (<MessageItem key={m.id} message={m.message}/>));
     let addNewMessage = (values: {messageText: string}) => {
