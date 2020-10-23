@@ -3,22 +3,12 @@
     height: 100px;
     border-radius: 50%;
 }
-.page span{
-    border: 1px solid rgb(150, 150, 150);
-    padding: 0 2px;
-    margin: 0 2px;
-    border-radius: 25%;
-}
+
 .page {
     margin: 3px;
 }
-.paginator {
-    margin: 10px;
-}
+
 .pageNumber.selectedPage{
     font-weight: bold;
     width: 30px;
-}
-.pageNumber {
-    mix-width: 50px;
 }

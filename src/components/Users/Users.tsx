@@ -14,6 +14,7 @@ import {FilterType, follow, unfollow, usersRequest} from '../../redux/users-redu
 import {UsersSearchForm} from './UsersSearchForm'
 import { useHistory } from 'react-router-dom'
 import * as queryString from 'querystring'
+import {Pagination} from 'antd'
 
 type QueryParamsType = { term?: string, friend?: string, page?: string }
 let Users: React.FC = () => {
@@ -67,8 +68,7 @@ let Users: React.FC = () => {
     return <div>
         <UsersSearchForm onFilterChanged={onFilterChanged}/>
         <div className={styles.page}>
-            <Paginator totalItemsCount={totalItemsCount} pageSize={pageSize} currentPage={currentPage}
-                       onPageChanged={onPageChanged}/>
+            <Pagination showQuickJumper defaultCurrent={1} pageSize={pageSize} total={totalItemsCount} onChange={onPageChanged} />
         </div>
         <div>{
             users.map(u => <User user={u}
